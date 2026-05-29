@@ -25,4 +25,3 @@ jobs:
         with:
           push: true
           tags: chuuyaee/my-project:latest
-
