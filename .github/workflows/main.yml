@@ -24,4 +24,5 @@ jobs:
         uses: docker/build-push-action@v5
         with:
           push: true
-          tags: ${{ vars.DOCKERHUB_USERNAME }}/my-project:latest
+          tags: chuuyaee/my-project:latest
+
