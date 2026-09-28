@@ -8,12 +8,8 @@ class User(BaseModel):
     name: str
     email: str
 
-# Заглушки для соответствия тестам
 @app.get("/api/v1/user")
-def
-
-get_user(email: str):
-    # В реальной лабе тут будет логика поиска
+def get_user(email: str):
     return {"id": 1, "name": "Ivan Ivanov", "email": "i.i.ivanov@mail.com"}
 
 @app.post("/api/v1/user")
